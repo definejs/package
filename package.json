@@ -1,0 +1,22 @@
+{
+  "name": "@definejs/package",
+  "version": "0.1.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definejs/package.git"
+  },
+  "dependencies": {
+    "@definejs/api": "^0.1.1",
+    "@definejs/query": "^0.1.1",
+    "@definejs/script": "^0.1.1",
+    "@definejs/tasker": "^0.1.2",
+    "@definejs/url": "^0.1.4"
+  }
+}
