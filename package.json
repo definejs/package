@@ -1,6 +1,6 @@
 {
   "name": "@definejs/package",
-  "version": "0.1.8",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -13,10 +13,10 @@
     "url": "https://github.com/definejs/package.git"
   },
   "dependencies": {
-    "@definejs/api": "^0.1.1",
-    "@definejs/query": "^0.1.1",
-    "@definejs/script": "^0.1.1",
-    "@definejs/tasker": "^0.1.2",
-    "@definejs/url": "^0.1.4"
+    "@definejs/api": "^1.0.0",
+    "@definejs/query": "^1.0.0",
+    "@definejs/script": "^1.0.0",
+    "@definejs/tasker": "^1.0.0",
+    "@definejs/url": "^1.0.0"
   }
 }
