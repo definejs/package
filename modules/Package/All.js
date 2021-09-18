@@ -34,12 +34,12 @@ function load(options, done) {
 
     let api = new API({
         'url': url,
-        'field': {},    //指定为一个空对象，以把响应解析成 json。
+        'field': null,
     });
 
     api.on({
-        response(status, json, xhr) { 
-            all = json || {};
+        response(res) { 
+            all = res.json || {};
             done && done(all);
         },
     });
